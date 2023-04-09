@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "learnexpress",
   "version": "1.0.0",
   "description": "Learning to expressjs",
@@ -6,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm-run-all -p server:*",
-    "server:start": "node server.mjs",
+    "server:start": "node app.js",
     "server:watch": "npx tailwindcss -i ./app/style.css -o ./app/dist/output.css --watch"
   },
   "author": "yuce",

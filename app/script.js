@@ -33,7 +33,7 @@ button.onclick = () => {
     },
     body: JSON.stringify(data),
   };
-  fetch("/", options);
+  fetch("/people", options);
 };
 
 const deleteHandler = (e) => {
@@ -45,6 +45,6 @@ const deleteHandler = (e) => {
     },
     body: JSON.stringify(data),
   };
-  fetch("/", options);
+  fetch("/people", options);
   window.location.reload();
 };
