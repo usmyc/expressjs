@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="mx-auto w-screen h-screen flex justify-center items-center">
+      <div
+        class="flex flex-col m-10 w-fit border rounded-md bg-purple-100 shadow-md"
+      >
+        <h1 class="text-3xl text-center">Info</h1>
+        <form class="flex flex-col border border-violet-900 m-4">
+          <input
+            class="border border-fuchsia-600 m-3"
+            type="text"
+            id="username"
+          />
+          <input
+            class="border border-fuchsia-600 m-3"
+            type="text"
+            id="adress"
+          />
+          <button
+            type="submit"
+            id="button"
+            class="border rounded-xl border-fuchsia-600 m-3"
+          >
+            Submit
+          </button>
+        </form>
+        <div id="list" class="border border-fuchsia-800 p-8 m-8"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
